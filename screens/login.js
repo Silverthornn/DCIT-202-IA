@@ -1,10 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import homePage from './homePage';
 
 export default function login() {
     return (
       <View>
-        <Text>This is the login page</Text>
+        <Text>Login or Sign In</Text>
+        <TextInput placeholder = "username/email"/>
+        <TextInput placeholder = "password" secureTextEntry = "true" autoCapitalize = "false" />
+        <Button title = "login" onPress = {<homePage/>} /> 
       </View>
     );
 }
