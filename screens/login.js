@@ -7,7 +7,9 @@ export default function login({navigation}) {
     return (
       <View>
         <Text>Login or Sign In</Text>
+        <Text>Email/Username:</Text>
         <TextInput placeholder = "username/email"/>
+        <Text>Password:</Text>
         <TextInput placeholder = "password" secureTextEntry = "true" autoCapitalize = "false" />
         <Button title = "login" onPress = {()=>navigation.navigate('homePage')} /> 
       </View>
