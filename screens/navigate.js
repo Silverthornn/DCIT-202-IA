@@ -11,7 +11,7 @@ import login from "../screens/login";
 
 const Stack = createNativeStackNavigator();
 
-export default function navigate({navigation}) {
+export default function navigate() {
   return (
     <Stack.Navigator
       initialRouteName="Home"

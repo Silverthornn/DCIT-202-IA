@@ -4,6 +4,13 @@ import homePage from './homePage';
 import navigate from './navigate';
 
 export default function login({navigation}) {
+  this.state = {
+    uname:"",
+    email:"",
+    pass: ""
+  }
+
+  this.handleChange = this.handleChange.bind(this);
     return (
       <View>
         <Text>Login or Sign In</Text>
@@ -15,3 +22,11 @@ export default function login({navigation}) {
       </View>
     );
 }
+
+const styles = StyleSheet.create({
+  loggin:{
+    color:"blue"
+    
+  }
+}
+)
