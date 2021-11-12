@@ -1,18 +1,26 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import {Button, ThemeProvider, Card} from 'react-native-elements';
+import {Button, ThemeProvider, Card, SearchBar} from 'react-native-elements';
 import navigate from './navigate';
 import products from './prouctDetails';
+import settings from './settings';
 
 export default function homePage({navigation}) {
     
   return (
     
       <View>
+      <Card>
         <Text>Welcome To All You Can Buy Store!</Text>
         <Text>Get all your products and goods here..</Text>
         <Text>We offer delivery services too</Text>
-        <Text onPress = {()=>navigation.navigate('login')} style = {styles.loggin} >Click here to login or sign up</Text>
+      </Card>  
+      <Card>
+      <SearchBar 
+      placeholder = "search here" 
+      />
+      <settings />
+      </Card>
         <Image source={require("..pictures\bag.jpg")} />
         <Image source={require("..pictures\chair.jpg")} />
         <Image source={require("..picture\jean.jpg")} />

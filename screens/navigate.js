@@ -15,7 +15,7 @@ export default function navigate() {
   return (
     <Stack.Navigator
       initialRouteName="Home"
-    //   screenOptions={{ headerShown: false }}
+       screenOptions={{ headerShown: false , }}
     >
       <Stack.Screen name="homePage" component={homePage} />
       <Stack.Screen name="login" component={login} />

@@ -21,6 +21,7 @@ export default function login({navigation}) {
         secureTextEntry = "true" 
         autoCapitalize = "false" 
         onChangeText = {(password) => setPassword(password)}
+        style = {style.inputView}
         />
         <Button title = "login" onPress = {()=>navigation.navigate('homePage')} /> 
         <TouchableOpacity>
