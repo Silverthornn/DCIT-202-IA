@@ -4,6 +4,7 @@ import {Button, ThemeProvider, Card, SearchBar} from 'react-native-elements';
 import navigate from './navigate';
 import products from './prouctDetails';
 import settings from './settings';
+import cart from './cart';
 
 export default function homePage({navigation}) {
     
@@ -19,7 +20,7 @@ export default function homePage({navigation}) {
       <SearchBar 
       placeholder = "search here" 
       />
-      <settings />
+      settings()
       </Card>
         <Image source={require("..pictures\bag.jpg")} />
         <Image source={require("..pictures\chair.jpg")} />

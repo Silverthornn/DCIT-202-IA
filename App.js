@@ -6,7 +6,7 @@ import login from './screens/login';
 
 export default function App({navigation}) {
   return (
-    <login />
+    login()
   );
 }
 
