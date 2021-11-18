@@ -26,8 +26,8 @@ export default class ProductDetail extends React.Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3v7KDJN7TAoJa5sFaPWcp1HX8JFcpF3z5K3ngz4L6kWoEP7Ca"}}/>
-            <Text style={styles.name}>Super Soft T-Shirt</Text>
+            <Image style={styles.productImg} source={{uri:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.walmart.com%2Fip%2FGildan-Men-s-Ultra-Cotton-Long-Sleeve-T-Shirt-2-Pack-up-to-size-5xl%2F138195888&psig=AOvVaw3ZVD3LyLwvMYLuXFvfb5Ly&ust=1637281360727000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJi3hdDSoPQCFQAAAAAdAAAAABAD"}}/>
+            <Text style={styles.name}>Super Soft Cotton T-Shirt</Text>
             <Text style={styles.price}>$ 12.22</Text>
             <Text style={styles.description}>
               Super soft grey long sleeved shirt. Smooth to the touch and easy on the skin
