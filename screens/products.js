@@ -31,8 +31,12 @@ export default class ProductDetail extends React.Component {
             <Text style={styles.price}>$ 12.22</Text>
             <Text style={styles.description}>
               Super soft grey long sleeved shirt. Smooth to the touch and easy on the skin
+            </Text>
+            <Text>
               Made from a hundred percent cotton. Sweat absorbent, leaves no stains.
               Shirts come in a variety of sizes, perfect for everyone no matter your size.
+            </Text>
+            <Text>
               Buy one now!
             </Text>
           </View>
