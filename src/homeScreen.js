@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View, Button, TouchableOpacity } from "react-native";
 import { SearchBar, Icon, Tab, TabView, Image, ListItem } from "react-native-elements";
 import { useState } from "react";
+import ProductDetail from "../screens/products";
 
 
 
@@ -45,6 +46,7 @@ export default function home(params){
             <TabView  value={index} onChange={setIndex}>
                 <TabView.Item>
                 <View>
+                <ProductDetail/>
                 {/* <Image
                 source={require('./assets/jeans.jpg')}
                 style={{ width: 200, height: 200 }}

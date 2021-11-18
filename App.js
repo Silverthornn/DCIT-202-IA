@@ -9,6 +9,7 @@ import login from './screens/Login';
 import home from './src/homeScreen';
 import cart from './screens/cart';
 import social from './screens/social';
+import ProductDetail from './screens/products';
 
 
 
@@ -32,6 +33,7 @@ export default function App() {
         <MainNavigator.Screen name="Home" component={home} />
         <MainNavigator.Screen name="Cart" component={cart} />
         <MainNavigator.Screen name="Social" component={social} />
+        <MainNavigator.Screen name="ProductDetail" component={ProductDetail}/>
        
       </MainNavigator.Navigator>
     </NavigationContainer>
